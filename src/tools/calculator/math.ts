@@ -1,0 +1,29 @@
+export class MathTool{
+    add(a: number, b: number): number {
+        return a + b;
+    }
+    
+    subtract(a: number, b: number): number {
+        return a - b;
+    }
+    multiply(a: number, b: number): number {
+        return a * b;
+    }
+    divide(a: number, b: number): number {
+        if (b === 0) {
+            throw new Error("Division by zero is not allowed.");
+        }
+        return a / b;
+    }
+    power(a: number, b: number): number {   
+        return Math.pow(a, b);  
+    }
+    sqrt(a: number): number {
+        if (a < 0) {
+            throw new Error("Square root of negative number is not allowed.");
+        }
+        return Math.sqrt(a);
+    }
+}
+
+export const mathTool = new MathTool();
