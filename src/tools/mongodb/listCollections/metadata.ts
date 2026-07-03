@@ -1,4 +1,4 @@
-import { defineTool } from "../../../lib/tool/defineTool.js";
+import { defineTool } from "../../../core/tool/defineTool.js";
 
 import { z } from "zod";
 

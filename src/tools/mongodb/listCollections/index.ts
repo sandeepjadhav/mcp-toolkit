@@ -1,5 +1,5 @@
-import { ToolContext } from "../../../lib/context/ToolContext.js";
-import { MongoBaseTool } from "../../base/MongoBaseTool.js";
+import { ToolContext } from "../../../core/context/ToolContext.js";
+import { MongoBaseTool } from "../../abstract/MongoBaseTool.js";
 
 import metadata, { type ListCollectionsInput } from "./metadata.js";
 

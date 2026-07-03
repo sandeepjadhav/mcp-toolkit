@@ -7,8 +7,5 @@ export * from "./tool/BaseTool.js";
 export * from "./tool/ToolError.js";
 export * from "./tool/ToolResponse.js";
 
-export * from "./types.js";
-
-
 export * from "./tool/defineTool.js";
 export * from "./tool/ToolDefinition.js";

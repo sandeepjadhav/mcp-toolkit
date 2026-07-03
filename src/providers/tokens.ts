@@ -1,4 +1,4 @@
-import { createServiceToken } from "../lib/container/tokens.js";
+import { createServiceToken } from "../core/container/tokens.js";
 import { MongoService } from "../services/MongoService.js";
 
 export const MongoServiceToken =

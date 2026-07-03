@@ -1,16 +1,10 @@
-import { BaseTool, type ToolMetadata } from "../../lib/index.js";
-import { ToolContext } from "../../lib/context/ToolContext.js";
+import { BaseTool, type ToolMetadata } from "../../core/index.js";
+import { ToolContext } from "../../core/context/ToolContext.js";
 import { MongoService } from "../../services/MongoService.js";
-import { MongoServiceToken } from "../../config/tokens.js";
+import { MongoServiceToken } from "../../providers/tokens.js";
+import { z } from "zod";
 
- import { z } from "zod";
-
-
-
-import type { ToolDefinition } from "../../lib/tool/ToolDefinition.js";
-
-
-
+import type { ToolDefinition } from "../../core/tool/ToolDefinition.js";
 export abstract class MongoBaseTool<
   TSchema extends z.ZodObject<any>,
   TResult = unknown

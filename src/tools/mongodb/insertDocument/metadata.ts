@@ -1,4 +1,4 @@
-import { defineTool } from "../../../lib/index.js";
+import { defineTool } from "../../../core/index.js";
 import { schema } from "./types.js";
 
 export default defineTool({

@@ -1,7 +1,7 @@
 import dotenv from "dotenv";
 import { MongoClient } from "mongodb";
 import { MongoService } from "../services/MongoService.js";
-import { Logger } from "../lib/logger/logger.js";
+import { Logger } from "../core/logger/Logger.js";
 
 dotenv.config();
 

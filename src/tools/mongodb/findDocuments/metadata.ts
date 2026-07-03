@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { defineTool } from "../../../lib/index.js";
+import { defineTool } from "../../../core/index.js";
 
 export const schema = z.object({});
 

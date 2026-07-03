@@ -4,9 +4,9 @@ import type {
   InsertDocumentInput
 } from "./types.js";
 
-import { ToolContext } from "../../../lib/context/ToolContext.js";
+import { ToolContext } from "../../../core/context/ToolContext.js";
 
-import { MongoBaseTool } from "../../base/MongoBaseTool.js";
+import { MongoBaseTool } from "../../abstract/MongoBaseTool.js";
 
 export class InsertDocumentTool
   extends MongoBaseTool<

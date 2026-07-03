@@ -1,4 +1,4 @@
-import { McpApplication } from "../application/McpApplication.js";
+import type { McpApplication } from "../index.js";
 
 export interface Plugin {
   readonly name: string;
@@ -10,3 +10,5 @@ export type PluginFactory<TOptions = void> =
   TOptions extends void
     ? () => Plugin
     : (options: TOptions) => Plugin;
+
+    

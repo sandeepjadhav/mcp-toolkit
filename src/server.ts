@@ -1,5 +1,5 @@
-import { McpApplication } from "./lib/index.js";
-import MongoPlugin from "./lib/plugin/MongoPlugin.js";
+import { McpApplication } from "./core/index.js";
+import MongoPlugin from "./core/plugins/MongoPlugin.js";
 
 async function bootstrap() {
 

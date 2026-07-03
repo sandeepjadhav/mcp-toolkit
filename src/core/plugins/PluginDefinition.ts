@@ -1,6 +1,7 @@
-import { BaseTool } from "../tool/BaseTool.js";
+import type { ToolContext } from "../context/ToolContext.js";
+import type { BaseTool } from "../index.js";
 import type { ServiceDefinition } from "../service/ServiceDefinition.js";
-import { ToolContext } from "../context/ToolContext.js";
+
 
 export type ToolConstructor = new (
   context: ToolContext

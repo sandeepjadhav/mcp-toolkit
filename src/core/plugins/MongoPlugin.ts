@@ -3,7 +3,7 @@ import { ListCollectionsTool } from "../../tools/mongodb/listCollections/index.j
 import { FindDocumentsTool } from "../../tools/mongodb/findDocuments/index.js";
 import { InsertDocumentTool } from "../../tools/mongodb/insertDocument/index.js";
 import { definePlugin } from "./definePlugin.js";
-import MongoServiceDefinition from "../../config/mongodb.service.js";
+import MongoServiceDefinition from "../../providers/mongodb.service.js";
 
 export default definePlugin({
     name: "mongodb",
