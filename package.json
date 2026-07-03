@@ -1,5 +1,14 @@
 {
   "name": "mcp-agent",
+  "description": "Framework for building Model Context Protocol (MCP) servers in TypeScript.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "agent",
+    "typescript",
+    "nodejs"
+  ],
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -8,10 +17,8 @@
     "build": "tsc",
     "start": "node dist/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Sandeep Jadhav",
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0",
     "dotenv": "^17.4.2",
