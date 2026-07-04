@@ -1,10 +1,8 @@
 
-import { ListCollectionsTool } from "./tools/mongodb/listCollections/index.js";
-import { FindDocumentsTool } from "./tools/mongodb/findDocuments/index.js";
-import { InsertDocumentTool } from "./tools/mongodb/insertDocument/index.js";
 import { MongoServiceDefinition } from "./providers/index.js";
 import { definePlugin } from "@mcp-toolkit/core";
 
+import {mongoTools} from "./tools/index.js";
 
 export default definePlugin({
     name: "mongodb",
@@ -16,11 +14,7 @@ export default definePlugin({
     services: [
         MongoServiceDefinition
     ],
-    tools: [
-        ListCollectionsTool,
-        FindDocumentsTool,
-        InsertDocumentTool
-    ]
+    tools: mongoTools
 
 });
 
