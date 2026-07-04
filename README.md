@@ -272,3 +272,10 @@ Please open an issue before starting large changes so we can discuss the design.
 # License
 
 MIT
+
+
+
+
+Projects/mcp-agent$  npm install
+Projects/mcp-agent$  npm run build --workspaces
+npm run build --workspace=@mcp-toolkit/core

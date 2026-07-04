@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@mcp-toolkit/core": "file:../../packages/core",
+    "@mcp-toolkit/mongodb": "file:../../packages/mongodb"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

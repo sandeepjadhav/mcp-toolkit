@@ -1,0 +1,39 @@
+{
+  "name": "@mcp-toolkit/core",
+  "version": "0.1.0-alpha.1",
+  "description": "Framework for building MCP servers.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.25.76"
+  },
+  "homepage": "https://github.com/sandeepjadhav/mcp-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepjadhav/mcp-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandeepjadhav/mcp-toolkit/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "typescript",
+    "ai",
+    "agent",
+    "sdk",
+    "toolkit"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
